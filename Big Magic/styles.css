@@ -1,0 +1,107 @@
+h1, h2, h3, h4, h5, h6
+{
+    font-family: komu-a, komu-b, sans-serif;
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1
+{   
+    font-size: 700%;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+
+.subtitle
+{
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 2rem;  
+}
+
+body
+{
+    
+    margin-left: 0;
+    margin: auto;
+    background-image: linear-gradient(pink, purple, whitesmoke);
+}
+
+#wrapper 
+{
+    background-color: whitesmoke;
+    max-width: 900px;
+    margin: 5rem auto;
+}
+
+nav ul 
+{
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 1rem;
+}
+
+
+
+#book, #author, #reviews, #tour, #buy, #social
+{
+    padding-bottom: 3rem;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.flexbox 
+{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flexbox img
+{
+    margin-right: 1rem;
+    width: 50%;
+    height: auto;
+}
+
+table
+{
+    width: 100%;
+   
+}
+ table, th, td 
+{
+    border: 1px solid black;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+#social
+{
+    list-style-type: none;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
